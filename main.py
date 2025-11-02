@@ -20,3 +20,6 @@ elif i==3:
     i3 = input("Enter value for hashing:")
     h3 = hashlib.sha384(i3.encode())
     print(h3.hexdigest())
+else:
+    print("Invaild input!!! ")
+    print("Give correct input.")
