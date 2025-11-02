@@ -15,3 +15,13 @@ elif i==2:
     i2 = input("Enter value for hashing:")
     h2 = hashlib.md5(i2.encode())
     print(h2.hexdigest())
+
+elif i==3:
+    print("SHA384 hashing")
+    i3 = input("Enter value for hashing:")
+    h3 = hashlib.sha384(i3.encode())
+    print(h3.hexdigest())
+else:
+    print("Invaild input!!! ")
+    print("Give correct input.")
+
